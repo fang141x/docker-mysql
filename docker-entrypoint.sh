@@ -114,5 +114,5 @@ log "info" "Starting $(mysqld --version)"
 log "info" "MYSQL Config: /etc/my.cnf"
 log "info" "MYSQL Password: $MYSQL_ROOT_PASSWORD"
 log "info" "MYSQL Data_db_dir: $DB_DATA_DIR"
-log "info" "Auther: https://github.com/fangdm/docker-mysql"
+log "info" "Auther: https://github.com/fang141x/docker-mysql"
 exec mysqld
